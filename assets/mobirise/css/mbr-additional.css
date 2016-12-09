@@ -666,3 +666,9 @@ h6,
 .extProgressBar5 .progress-primary[value]::-ms-fill {
   color: #c0a375;
 }
+#header4-2 .mbr-section-title {
+  color: #000000;
+}
+#header4-2 .mbr-section-lead {
+  color: #7c706b;
+}
