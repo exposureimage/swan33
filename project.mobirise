@@ -22,7 +22,7 @@
     },
     "publishType": "github",
     "versionFirst": "3.10",
-    "uniqCompNum": 1,
+    "uniqCompNum": 3,
     "versionPublish": "3.10"
   },
   "pages": {
@@ -37,6 +37,38 @@
       },
       "components": [
         {
+          "_inherit": "header1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_anchor": "header4-2",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/rkdr4eP1FOU?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.1",
+            "overlayColor": "#000",
+            "contentAlign": "right",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "swan on the Rideau",
+          "text": "An Authentic English &nbsp;style pub and restaurant",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Menu</a> "
+        },
+        {
           "_tags": [
             "Theme"
           ],
@@ -45,7 +77,7 @@
             "autoplay": true,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "timeout": 5,
+            "timeout": "8",
             "slides": [
               {
                 "active": false,
@@ -80,22 +112,22 @@
               {
                 "active": true,
                 "image": "@PROJECT_PATH@/assets/images/beerpourpilsner-2000x1476-53.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
+                "playVideo": true,
+                "videoUrl": "https://youtu.be/rkdr4eP1FOU",
+                "overlay": false,
                 "overlayOpacity": "0.2",
                 "contentAlign": "center",
                 "showTitle": false,
                 "title": "IMAGE SLIDE",
                 "showText": false,
                 "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": true,
+                "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">click</a> "
               }
             ],
-            "fullScreen": true,
+            "fullScreen": false,
             "bgColor": "#fff",
-            "showBullets": false
+            "showBullets": true
           },
           "_anchor": "slider-0",
           "articleLayout": false
