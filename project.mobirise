@@ -22,7 +22,7 @@
     },
     "publishType": "github",
     "versionFirst": "3.10",
-    "uniqCompNum": 3,
+    "uniqCompNum": 4,
     "versionPublish": "3.10"
   },
   "pages": {
@@ -36,6 +36,66 @@
         "html_before": ""
       },
       "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-3",
+          "_params": {
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/beer6-2000x2609-27.png",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0",
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/swan-logo2-1400x1004-92.png",
+              "link": "index.html#header4-2",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "SWAN on the RIDEAU",
+          "text": "Authentic English Style Pub and Restaurant.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://swanonrideau.ca/index.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">HOME Site</a>",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "center",
+              "color": "#590e0e"
+            },
+            ".mbr-section-text": {
+              "color": "#28324e"
+            }
+          }
+        },
         {
           "_inherit": "header1",
           "_tags": [
@@ -64,7 +124,7 @@
             "showText": true,
             "showButtons": true
           },
-          "title": "swan on the Rideau",
+          "title": "Swan on the Rideau",
           "text": "An Authentic English &nbsp;style pub and restaurant",
           "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Home Page</a> ",
           "_styles": {
@@ -89,25 +149,10 @@
             "slides": [
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/a-beerpourpilsner-2000x1476-99.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "overlayOpacity": "0.2",
-                "contentAlign": "center",
-                "showTitle": false,
-                "title": "FULL SCREEN SLIDER",
-                "showText": false,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": true,
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"index.html#slider-0\" data-toolbar=\"-mbrBtnMove\">Click</a>"
-              },
-              {
-                "active": false,
                 "image": "@THEME_PATH@/components/_images/slider/bridge.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=Ri2h5zDZQ3c",
-                "overlay": true,
+                "overlay": false,
                 "overlayOpacity": "0.1",
                 "contentAlign": "center",
                 "showTitle": false,
@@ -119,18 +164,18 @@
               },
               {
                 "active": true,
-                "image": "@PROJECT_PATH@/assets/images/beerpourpilsner-2000x1476-53.jpg",
-                "playVideo": true,
-                "videoUrl": "https://youtu.be/rkdr4eP1FOU",
+                "image": "@PROJECT_PATH@/assets/images/a-beerpourpilsner-2000x1476-99.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
                 "overlayOpacity": "0.2",
                 "contentAlign": "center",
                 "showTitle": false,
-                "title": "IMAGE SLIDE",
+                "title": "FULL SCREEN SLIDER",
                 "showText": false,
                 "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
                 "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">click</a> "
+                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"index.html#slider-0\" data-toolbar=\"-mbrBtnMove\">Click</a>"
               }
             ],
             "fullScreen": true,
