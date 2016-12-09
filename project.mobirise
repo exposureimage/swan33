@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "NewSite-12-09_0000",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -22,7 +22,7 @@
     },
     "publishType": "github",
     "versionFirst": "3.10",
-    "uniqCompNum": 4,
+    "uniqCompNum": 6,
     "versionPublish": "3.10"
   },
   "pages": {
@@ -43,7 +43,7 @@
           "_name": "header2",
           "_anchor": "header2-3",
           "_params": {
-            "parallax": false,
+            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/beer6-2000x2609-27.png",
             "bgColor": "#2e2e2e",
@@ -57,7 +57,7 @@
             "overlayColor": "#000",
             "inverse": false,
             "showTitle": true,
-            "showText": true,
+            "showText": false,
             "showButtons": true,
             "showArrow": true
           },
@@ -83,13 +83,14 @@
               "size": 0
             }
           },
-          "title": "SWAN on the RIDEAU",
+          "title": "SWAN On The RIDEAU",
           "text": "Authentic English Style Pub and Restaurant.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://swanonrideau.ca/index.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">HOME Site</a>",
           "_styles": {
             ".mbr-section-title": {
               "text-align": "center",
-              "color": "#590e0e"
+              "color": "#590e0e",
+              "font-size": "30px"
             },
             ".mbr-section-text": {
               "color": "#28324e"
@@ -127,63 +128,120 @@
           "title": "Swan on the Rideau",
           "text": "An Authentic English &nbsp;style pub and restaurant",
           "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Home Page</a> ",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#000000"
-            },
-            ".mbr-section-lead": {
-              "color": "#7c706b"
-            }
-          }
-        },
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero mbr-section-full mbr-section-with-arrow\" data-bg-video=\"https://www.youtube.com/embed/rkdr4eP1FOU?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0\">\n\n    \n\n    <div class=\"mbr-table-cell\">\n\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"mbr-section col-md-10 col-md-offset-2 text-xs-right\">\n\n                    <h1 class=\"mbr-section-title display-1 mbr-editable-content\" code-editable-id=\"4\">Swan on the Rideau</h1>\n                    <p class=\"mbr-section-lead lead mbr-editable-content\" code-editable-id=\"5\">An Authentic English &nbsp;style pub and restaurant</p>\n                    <div class=\"mbr-section-btn\"> <a class=\"btn btn-lg btn-info mbr-editable-button\" href=\"https://mobirise.com\" code-editable-id=\"6\">Home Page</a> </div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <div class=\"mbr-arrow mbr-arrow-floating\" aria-hidden=\"true\"><a href=\"#slider-0\"><i class=\"mbr-arrow-icon\"></i></a></div>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": ".mbr-section-title {\n\tcolor: #000000;\n}\n.mbr-section-lead {\n\tcolor: #7c706b;\n}\n",
+          "_customTemplate": true
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
         {
           "_tags": [
             "Theme"
           ],
-          "_name": "slider",
-          "_params": {
-            "autoplay": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "timeout": "8",
-            "slides": [
-              {
-                "active": false,
-                "image": "@THEME_PATH@/components/_images/slider/bridge.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=Ri2h5zDZQ3c",
-                "overlay": false,
-                "overlayOpacity": "0.1",
-                "contentAlign": "center",
-                "showTitle": false,
-                "title": "VIDEO SLIDE",
-                "showText": false,
-                "text": "Slide with youtube video background and color overlay. Title and text are aligned to the left.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": true,
-                "image": "@PROJECT_PATH@/assets/images/a-beerpourpilsner-2000x1476-99.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": false,
-                "overlayOpacity": "0.2",
-                "contentAlign": "center",
-                "showTitle": false,
-                "title": "FULL SCREEN SLIDER",
-                "showText": false,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": false,
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"index.html#slider-0\" data-toolbar=\"-mbrBtnMove\">Click</a>"
-              }
-            ],
-            "fullScreen": true,
-            "bgColor": "#fff",
-            "showBullets": true
+          "_name": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "right",
+              "color": "#590e0e",
+              "font-size": "30px"
+            },
+            ".mbr-section-text": {
+              "color": "#28324e"
+            }
           },
-          "_anchor": "slider-0",
-          "articleLayout": false
+          "_anchor": "header2-4",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/beer6-2000x2609-27.png",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0",
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/swan-logo2-1400x1004-92.png",
+              "link": "page1.html#header4-5",
+              "alt": "Swan Bg Video",
+              "title": "Swan Bg Video",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "SWAN On The RIDEAU",
+          "text": "Authentic English Style Pub and Restaurant.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://swanonrideau.ca/index.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">HOME Site</a>"
+        },
+        {
+          "_inherit": "header1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/rkdr4eP1FOU?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "overlay": false,
+            "overlayOpacity": "0.1",
+            "overlayColor": "#000",
+            "contentAlign": "right",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "Swan on the Rideau",
+          "text": "An Authentic English &nbsp;style pub and restaurant",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Home Page</a> ",
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero mbr-section-full mbr-section-with-arrow\" data-bg-video=\"https://www.youtube.com/embed/rkdr4eP1FOU?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0\">\n\n    \n\n    <div class=\"mbr-table-cell\">\n\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"mbr-section col-md-10 col-md-offset-2 text-xs-right\">\n\n                    <h1 class=\"mbr-section-title display-1 mbr-editable-content\" code-editable-id=\"9\">Swan on the Rideau</h1>\n                    <p class=\"mbr-section-lead lead mbr-editable-content\" code-editable-id=\"10\">An Authentic English &nbsp;style pub and restaurant</p>\n                    <div class=\"mbr-section-btn\"> <a class=\"btn btn-lg btn-info mbr-editable-button\" href=\"https://mobirise.com\" code-editable-id=\"11\">Home Page</a> </div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <div class=\"mbr-arrow mbr-arrow-floating\" aria-hidden=\"true\"><a href=\"#slider-0\"><i class=\"mbr-arrow-icon\"></i></a></div>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": ".mbr-section-title {\n\tcolor: #000000;\n}\n.mbr-section-lead {\n\tcolor: #7c706b;\n}\n",
+          "_customTemplate": true,
+          "_anchor": "header4-5"
         }
       ]
     }
